@@ -6,8 +6,13 @@ I have customized it some to fit my prefences.
 
 ## Mods I have done:
 
-- Add support for `#` as a headline alongside the default `*`;
-- Slight tweaks to the theme;
+- Add support for `#` as a headline alongside the default `*`:
+  - Headlines can have optional `#` or `*` after the text
+  - pressing <kbd>Shift</kbd>+<kbd>Tab</kbd>, then <kbd>Spacebar</kbd> allows tags to be assigned to thew headline
+- Tweaks to the theme, by adding:
+  - Deadlines
+  - Scheduled (due date)
+  - Modified look and behavior of headlines
 - Added support in `GoTo Symbol` for:
   - headlines, 
   - breaks, 
