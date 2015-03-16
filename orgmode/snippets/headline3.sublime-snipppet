@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[*** ${1:headline name} *
+  DEADLINE: <${2:YYYY-MM-DD}> SCHEDULED: <${3:date}>]]></content>
+    <tabTrigger>hhh</tabTrigger>
+    <scope>text.orgmode</scope>
+    <description>headline 3</description>
+</snippet>
