@@ -29,7 +29,19 @@
 			<key>name</key>
 			<string>orgmode.headline</string>
 			<key>match</key>
-			<string>^([#*]|([" "]{1,5}[#*])){1,}.*\n</string>
+			<string>^[#*]{0,}.*[#*]</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>orgmode.deadline</string>
+			<key>match</key>
+			<string>DEADLINE: &lt;\d{4}-\d{2}-\d{2}(?:\s*\w{3}&gt;|&gt;)</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>orgmode.scheduled</string>
+			<key>match</key>
+			<string>SCHEDULED: &lt;\d{4}-\d{2}-\d{2}(?:\s*\w{3}&gt;|&gt;)</string>
 		</dict>
 		<dict>
 			<key>name</key>
