@@ -435,6 +435,28 @@
            </dict>
         </dict>
         <dict>
+          <key>name</key>
+          <string>orgmode deadline</string>
+          <key>scope</key>
+          <string>orgmode.deadline</string>
+          <key>settings</key>
+          <dict>
+            <key>foreground</key>
+            <string>#AAFFAA</string>
+          </dict>
+        </dict>
+        <dict>
+          <key>name</key>
+          <string>orgmode scheduled</string>
+          <key>scope</key>
+          <string>orgmode.scheduled</string>
+          <key>settings</key>
+          <dict>
+            <key>foreground</key>
+            <string>#0099FF</string>
+          </dict>
+        </dict>
+        <dict>
             <key>name</key>
             <string>orgmode tack</string>
             <key>scope</key>
@@ -493,5 +515,6 @@
     </array>
 	<key>uuid</key>
 	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347E</string>
+       
 </dict>
 </plist>
