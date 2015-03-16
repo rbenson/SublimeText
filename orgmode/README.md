@@ -18,6 +18,9 @@ I have customized it some to fit my prefences.
   - breaks, 
   - pages
 
+## Current look of Orgmode with mods
+![Screen shot of orgmode in sublime text](https://github.com/rbenson/SublimeText/blob/master/orgmode/Om.jpg)
+
 I will update as I add things, and contribute to the main branch as I go along.
 
 [OM]:http://orgmode.org/
