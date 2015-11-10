@@ -1,4 +1,4 @@
 # SublimeText
 My ST Plug-ins  
-- [Insert Date](/rbenson/InsertDate/)
+- [Insert Date](https://github.com/rbenson/InsertDate)
  
