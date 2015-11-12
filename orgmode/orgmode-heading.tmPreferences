@@ -5,19 +5,19 @@
 	<key>name</key>
 	<string>Symbol List</string>
 	<key>scope</key>
-	<string>text.orgmode orgmode.page, text.orgmode orgmode.break, text.orgmode orgmode.headline</string>
+	<string>text.orgmode orgmode.headline</string>
 	<key>settings</key>
 	<dict>
 		<key>showInSymbolList</key>
 		<integer>1</integer>
     <key>symbolTransformation</key>
     <string>
-    s/\s*(#|\*)*\s*\z//g;  #Search for # or *
-    s/(?&lt;=(#|\*))(#|\*)/  /g; #replace #\* with two spaces, except first
-    s/^#|\*( *)\s+(.*)/$1$2/;  #replace first found with a space
+    s/\*+\z//g;      # strip trailing space and #'s
+    s/\s{0,6}\*/ /g;     # change all but first # to m-space
+    s/\*\s/$2/;    # strip first # and space before title
     </string>
 	</dict>
-	<key>uuid</key>
+  <key>uuid</key>
 	<string>7A121D96-5F22-41B1-B749-8C4FCA7EA592</string>
 </dict>
 </plist>
